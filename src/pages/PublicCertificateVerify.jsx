@@ -32,7 +32,7 @@ export default function PublicCertificateVerify() {
         if (res && res.verified) {
           setCert(res);
         } else {
-          setError(res?.message || 'Certificate could not be verified on the FaunaNet ledger.');
+          setError(res?.message || 'Certificate could not be verified on the Ecoconnect ledger.');
         }
       } catch (err) {
         console.error('Certificate verification error:', err);
@@ -71,7 +71,7 @@ export default function PublicCertificateVerify() {
         <div className="cert-verify-loading">
           <ShieldCheck size={48} className="animate-pulse" style={{ color: '#FF8C42', margin: '0 auto 1rem' }} />
           <h2>Verifying Certificate Credential...</h2>
-          <p>Querying decentralized FaunaNet Academy ledger for #{certId}</p>
+          <p>Querying decentralized Ecoconnect Academy ledger for #{certId}</p>
         </div>
       </div>
     );
@@ -83,7 +83,7 @@ export default function PublicCertificateVerify() {
         <header className="cert-verify-nav">
           <Link to="/" className="cert-verify-logo">
             <div className="badge-symbol">FN</div>
-            <span>FaunaNet Academy</span>
+            <span>Ecoconnect Academy</span>
           </Link>
           <Link to="/app" className="btn-cert-action">
             <ArrowLeft size={16} /> Return to Portal
@@ -107,7 +107,7 @@ export default function PublicCertificateVerify() {
       <header className="cert-verify-nav">
         <Link to="/" className="cert-verify-logo">
           <div className="badge-symbol">FN</div>
-          <span>FaunaNet Academy Ledger</span>
+          <span>Ecoconnect Academy Ledger</span>
         </Link>
         <div className="cert-verify-nav-actions">
           <button 
@@ -136,7 +136,7 @@ export default function PublicCertificateVerify() {
       {/* Hero Badge */}
       <div className="cert-verify-hero">
         <div className="cert-status-tag">
-          <CheckCircle2 size={15} style={{ color: '#2ECC71' }} /> Officially Verified FaunaNet Credential
+          <CheckCircle2 size={15} style={{ color: '#2ECC71' }} /> Officially Verified Ecoconnect Credential
         </div>
         <h1>Community Responder Certification</h1>
         <p>Decentralized record of safety instruction and knowledge evaluation</p>
@@ -152,7 +152,7 @@ export default function PublicCertificateVerify() {
                 <ShieldCheck size={36} style={{ color: '#FF8C42' }} />
               </div>
               <div className="cert-seal-text">
-                FAUNANET ACADEMY · HYPERLOCAL WELFARE NETWORK
+                Ecoconnect ACADEMY · HYPERLOCAL WELFARE NETWORK
               </div>
             </div>
 
@@ -208,7 +208,7 @@ export default function PublicCertificateVerify() {
                   Cryptographically Trackable Record
                 </div>
                 <div className="qr-sub">
-                  Scan this QR code with any mobile camera to verify recipient authenticity and issue timestamp directly against the FaunaNet database.
+                  Scan this QR code with any mobile camera to verify recipient authenticity and issue timestamp directly against the Ecoconnect database.
                 </div>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function PublicCertificateVerify() {
             {/* Ethical & Legal Disclaimer */}
             <footer className="cert-legal-disclaimer">
               <strong>Mandatory Compliance Notice: </strong>
-              {cert.disclaimer || 'This records completion of a FaunaNet community learning module. It is not a professional veterinary, government, emergency-response or regulated qualification.'}
+              {cert.disclaimer || 'This records completion of a Ecoconnect community learning module. It is not a professional veterinary, government, emergency-response or regulated qualification.'}
             </footer>
           </div>
         </div>

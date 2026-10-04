@@ -35,7 +35,7 @@ export default function DigitalPassport() {
         if (res && res.passport) {
           setPassport(res.passport);
         } else {
-          setError('Digital Passport could not be located on the FaunaNet ledger.');
+          setError('Digital Passport could not be located on the Ecoconnect ledger.');
         }
       } catch (err) {
         console.error('Passport lookup error:', err);
@@ -85,7 +85,7 @@ export default function DigitalPassport() {
         <div className="passport-hero-badge" style={{ marginTop: '5rem' }}>
           <ShieldCheck size={48} className="animate-pulse" style={{ color: '#FF8C42', margin: '0 auto 1rem' }} />
           <h2 style={{ color: '#fff' }}>Verifying Digital Passport...</h2>
-          <p style={{ color: '#A0AEC0' }}>Querying decentralized FaunaNet ledger record for #{id}</p>
+          <p style={{ color: '#A0AEC0' }}>Querying decentralized Ecoconnect ledger record for #{id}</p>
         </div>
       </div>
     );
@@ -97,7 +97,7 @@ export default function DigitalPassport() {
         <div className="passport-nav">
           <Link to="/" className="passport-logo">
             <div className="badge-symbol">FN</div>
-            <span>FaunaNet</span>
+            <span>Ecoconnect</span>
           </Link>
           <Link to="/app" className="btn-passport-action">
             <ArrowLeft size={16} /> Return to Portal
@@ -123,7 +123,7 @@ export default function DigitalPassport() {
       <header className="passport-nav">
         <Link to="/" className="passport-logo">
           <div className="badge-symbol">FN</div>
-          <span>FaunaNet Hyperlocal Network</span>
+          <span>Ecoconnect Hyperlocal Network</span>
         </Link>
         <div className="passport-nav-actions">
           <button 
@@ -209,7 +209,7 @@ export default function DigitalPassport() {
             </div>
 
             <div className="passport-org-footer">
-              Managed by <strong>{passport.organization?.name || 'FaunaNet Hyperlocal Node'}</strong>
+              Managed by <strong>{passport.organization?.name || 'Ecoconnect Hyperlocal Node'}</strong>
               <div style={{ marginTop: '0.25rem', fontSize: '0.7rem' }}>
                 Last Verified: {new Date(passport.lastUpdated || Date.now()).toLocaleDateString()}
               </div>
@@ -358,7 +358,7 @@ export default function DigitalPassport() {
               ) : (
                 <div className="timeline-entry">
                   <h3 className="timeline-title">Verified Intake</h3>
-                  <p className="timeline-notes">Animal entered FaunaNet care ecosystem.</p>
+                  <p className="timeline-notes">Animal entered Ecoconnect care ecosystem.</p>
                   <span className="timeline-time">{new Date().toLocaleDateString()}</span>
                 </div>
               )}

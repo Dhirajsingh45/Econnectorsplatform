@@ -51,7 +51,7 @@ export default function Ecosystem() {
     <div className="ecosystem-page animate-fade-in">
       <header className="ecosystem-header">
         <div>
-          <h1>FaunaNet Ecosystem</h1>
+          <h1>Ecoconnect Ecosystem</h1>
           <p>Trusted nodes, verified help, and rescue history across your city.</p>
         </div>
       </header>

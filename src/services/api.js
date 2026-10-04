@@ -21,7 +21,7 @@ const api = axios.create({
 
 api.interceptors.request.use(
   (config) => {
-    const saved = localStorage.getItem('faunanet_user');
+    const saved = localStorage.getItem('Ecoconnect_user');
     if (saved) {
       try {
         const { token } = JSON.parse(saved);
@@ -49,7 +49,7 @@ api.interceptors.response.use(
     if (status === 401) {
       message = 'Authentication expired. Please log in again.';
       code = 'AUTH_EXPIRED';
-      localStorage.removeItem('faunanet_user');
+      localStorage.removeItem('Ecoconnect_user');
     } else if (status === 403) {
       message = data?.message || 'You do not have permission to perform this action.';
       code = 'FORBIDDEN';

@@ -35,7 +35,7 @@ export default function PublicLostFoundPoster() {
       <div className="public-poster-container">
         <div className="poster-loading glass-panel">
           <div className="poster-spinner" />
-          <p>Loading Verified FaunaNet Community Report...</p>
+          <p>Loading Verified Ecoconnect Community Report...</p>
         </div>
       </div>
     );
@@ -144,7 +144,7 @@ export default function PublicLostFoundPoster() {
                 <span className="text-xs font-bold uppercase tracking-wider text-teal">Safe Community Contact</span>
               </div>
               <p className="text-xs text-muted mb-sm">
-                To protect citizen safety, phone numbers are masked. Contact verified reporter via FaunaNet network or authorized emergency response:
+                To protect citizen safety, phone numbers are masked. Contact verified reporter via Ecoconnect network or authorized emergency response:
               </p>
               <div className="contact-details-row">
                 <span className="contact-name font-bold">{report.contactName}</span>
@@ -157,7 +157,7 @@ export default function PublicLostFoundPoster() {
         {/* Safety Disclaimer Footer */}
         <footer className="poster-legal-footer">
           <p>
-            🛡️ <strong>FaunaNet Animal Welfare Network:</strong> Never wire money or courier fees for "found pet returns." 
+            🛡️ <strong>Ecoconnect Animal Welfare Network:</strong> Never wire money or courier fees for "found pet returns." 
             Always verify ownership at a daytime public venue or veterinary clinic with vaccination records and photos.
           </p>
         </footer>

@@ -167,7 +167,7 @@ export default function ImpactPage() {
         <div className="banner-content">
           <h4>Zero Synthetic Inflation Guarantee</h4>
           <p>
-            FaunaNet connects directly to MongoDB collections and immutable audit logs. No vanity metrics or mock numbers are generated. Every statistic reflects verifiable community actions on the ground.
+            Ecoconnect connects directly to MongoDB collections and immutable audit logs. No vanity metrics or mock numbers are generated. Every statistic reflects verifiable community actions on the ground.
           </p>
           <div className="banner-actions">
             <button className="btn btn-primary btn-sm" onClick={() => navigate('/app/tasks')}>

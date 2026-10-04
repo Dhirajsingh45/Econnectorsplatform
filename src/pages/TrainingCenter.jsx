@@ -118,7 +118,7 @@ export default function TrainingCenter() {
             <span className="badge badge-normal text-xs uppercase tracking-wider">Community Response Academy</span>
             <span className="verified-pill">EVIDENCE-BASED PROTOCOLS</span>
           </div>
-          <h1 className="training-hero-title">FaunaNet Training Academy</h1>
+          <h1 className="training-hero-title">Ecoconnect Training Academy</h1>
           <p className="training-hero-subtitle">
             Equipping citizen responders, foster parents, and volunteers with humane rescue standards, 
             safety protocols, and animal handling fundamentals. Complete interactive scenarios and quizzes 
@@ -245,7 +245,7 @@ export default function TrainingCenter() {
               <Award size={48} className="text-muted mx-auto mb-sm opacity-40" />
               <h3>No Completion Records Yet</h3>
               <p className="text-muted text-sm max-w-md mx-auto mb-md">
-                Pass any course quiz with a 75% score or higher to earn an official FaunaNet Volunteer 
+                Pass any course quiz with a 75% score or higher to earn an official Ecoconnect Volunteer 
                 Completion Record and digital profile badge.
               </p>
               <button className="btn btn-primary btn-sm" onClick={() => setActiveTab('curriculum')}>
@@ -480,7 +480,7 @@ export default function TrainingCenter() {
               <div className="cert-inner-border">
                 <div className="cert-top-seal">
                   <Shield size={32} className="text-accent" />
-                  <span className="seal-text">FAUNANET ACADEMY CERTIFIED</span>
+                  <span className="seal-text">Ecoconnect ACADEMY CERTIFIED</span>
                 </div>
 
                 <h1 className="cert-main-heading">Record of Completion</h1>
@@ -517,7 +517,7 @@ export default function TrainingCenter() {
                     <div style={{ color: '#F7FAFC', fontWeight: 600, marginBottom: '2px' }}>
                       Cryptographically Verifiable Credential
                     </div>
-                    <div>Scan with any smartphone or share link to verify authenticity on the FaunaNet Academy ledger.</div>
+                    <div>Scan with any smartphone or share link to verify authenticity on the Ecoconnect Academy ledger.</div>
                   </div>
                 </div>
 
