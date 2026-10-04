@@ -1,0 +1,197 @@
+.impact-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.impact-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.impact-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+}
+
+.impact-subtitle {
+  color: var(--text-muted, #94a3b8);
+  font-size: 0.95rem;
+  margin-top: 0.4rem;
+  max-width: 650px;
+}
+
+/* Personal Impact Card */
+.personal-impact-card {
+  padding: 1.75rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(255, 140, 66, 0.2);
+  background: linear-gradient(135deg, rgba(20, 24, 38, 0.8), rgba(255, 140, 66, 0.05));
+}
+
+.personal-impact-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.avatar-chip {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.personal-impact-header h3 {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.personal-role {
+  color: var(--text-muted, #94a3b8);
+  font-size: 0.85rem;
+}
+
+.personal-metrics-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.25rem;
+}
+
+.personal-metric {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.metric-val {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+}
+
+.metric-lbl {
+  font-size: 0.75rem;
+  color: var(--text-muted, #94a3b8);
+  margin-top: 0.25rem;
+}
+
+/* Section label */
+.section-label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.section-label-row h3 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.timestamp-note {
+  font-size: 0.75rem;
+  color: var(--text-muted, #64748b);
+}
+
+/* Network Grid */
+.network-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.network-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.network-card:hover {
+  transform: translateY(-3px);
+}
+
+.network-card.highlight-orange:hover { border-color: rgba(255, 140, 66, 0.5); }
+.network-card.highlight-teal:hover { border-color: rgba(58, 125, 111, 0.5); }
+.network-card.highlight-gold:hover { border-color: rgba(250, 204, 21, 0.5); }
+.network-card.highlight-blue:hover { border-color: rgba(56, 189, 248, 0.5); }
+.network-card.highlight-purple:hover { border-color: rgba(192, 132, 252, 0.5); }
+.network-card.highlight-green:hover { border-color: rgba(74, 222, 128, 0.5); }
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.card-lbl {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted, #94a3b8);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.card-num {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+  margin-bottom: 0.4rem;
+}
+
+.card-desc {
+  font-size: 0.8rem;
+  color: var(--text-muted, #94a3b8);
+  line-height: 1.4;
+}
+
+/* Transparency Banner */
+.transparency-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.75rem;
+  border-radius: 12px;
+  background: rgba(58, 125, 111, 0.08);
+  border: 1px solid rgba(58, 125, 111, 0.25);
+}
+
+.banner-content h4 {
+  font-size: 1.15rem;
+  color: #fff;
+  margin-bottom: 0.4rem;
+}
+
+.banner-content p {
+  color: var(--text-primary, #cbd5e1);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  max-width: 800px;
+}
+
+.banner-actions {
+  display: flex;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}

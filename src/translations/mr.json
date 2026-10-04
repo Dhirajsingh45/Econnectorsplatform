@@ -1,0 +1,51 @@
+{
+  "auth": {
+    "login": "लॉगिन",
+    "signup": "साइन अप",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "loading": "लोड होत आहे...",
+    "error_invalid": "ईमेल किंवा पासवर्ड चुकीचा आहे."
+  },
+  "nav": {
+    "dashboard": "डॅशबोर्ड",
+    "map": "नकाशा",
+    "tasks": "कामे",
+    "health": "आरोग्य",
+    "training": "प्रशिक्षण",
+    "assets": "संसाधने",
+    "logout": "लॉगआउट"
+  },
+  "dashboard": {
+    "title": "डॅशबोर्ड",
+    "subtitle": "बचाव कामे, अहवाल आणि उपलब्ध मदत पहा.",
+    "stats": {
+      "pending": "प्रलंबित अहवाल",
+      "active": "सक्रिय कामे",
+      "verified": "सत्यापित बचाव",
+      "rank": "स्तर"
+    },
+    "quick_deploy": "जलद कृती",
+    "report": "आपत्कालीन अहवाल द्या",
+    "locate": "नकाशा उघडा",
+    "latest_intel": "नवीन अहवाल"
+  },
+  "common": {
+    "loading": "लोड होत आहे...",
+    "save_success": "कृती यशस्वीरित्या जतन झाली.",
+    "impact_message": "तुमच्या मदतीमुळे हा प्राणी आता अधिक सुरक्षित आहे.",
+    "view_all": "सर्व पहा",
+    "community": "समुदाय",
+    "daily_tasks": "दैनंदिन कामे"
+  },
+  "settings": {
+    "theme": "थीम",
+    "language": "भाषा",
+    "themes": {
+      "light": "लाईट",
+      "dark": "डार्क",
+      "highContrast": "हाय कॉन्ट्रास्ट",
+      "cyberpunk": "निऑन"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "auth": {
+    "login": "लॉगिन",
+    "signup": "साइन अप",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "loading": "लोड हो रहा है...",
+    "error_invalid": "ईमेल या पासवर्ड गलत है।"
+  },
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "map": "मानचित्र",
+    "tasks": "कार्य",
+    "health": "स्वास्थ्य",
+    "training": "प्रशिक्षण",
+    "assets": "संसाधन",
+    "logout": "लॉगआउट"
+  },
+  "dashboard": {
+    "title": "डैशबोर्ड",
+    "subtitle": "बचाव कार्य, रिपोर्ट और उपलब्ध मदद देखें।",
+    "stats": {
+      "pending": "लंबित रिपोर्ट",
+      "active": "सक्रिय कार्य",
+      "verified": "सत्यापित बचाव",
+      "rank": "स्तर"
+    },
+    "quick_deploy": "त्वरित कार्य",
+    "report": "आपातकाल रिपोर्ट करें",
+    "locate": "मानचित्र खोलें",
+    "latest_intel": "नई रिपोर्ट"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "save_success": "कार्य सफलतापूर्वक सहेजा गया।",
+    "impact_message": "आपकी मदद से यह जानवर अब अधिक सुरक्षित है।",
+    "no_reports": "अभी कोई रिपोर्ट नहीं है।",
+    "view_all": "सभी देखें",
+    "community": "समुदाय",
+    "daily_tasks": "दैनिक कार्य"
+  },
+  "settings": {
+    "theme": "थीम",
+    "language": "भाषा",
+    "themes": {
+      "light": "लाइट",
+      "dark": "डार्क",
+      "highContrast": "हाई कॉन्ट्रास्ट",
+      "cyberpunk": "निऑन"
+    }
+  }
+}

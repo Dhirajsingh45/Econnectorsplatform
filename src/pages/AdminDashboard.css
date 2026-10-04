@@ -1,0 +1,70 @@
+.admin-dashboard {
+  padding: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.admin-header h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.25rem 0;
+}
+
+.admin-stats-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.admin-stat-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem;
+  border-radius: 12px;
+  background: var(--card-bg, rgba(30, 41, 59, 0.7));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.1));
+}
+
+.admin-stat-card.highlight {
+  border-color: var(--accent);
+  background: rgba(245, 207, 136, 0.08);
+}
+
+.admin-stat-card .val {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-color, #fff);
+}
+
+.admin-stat-card .lab {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--text-muted, #94a3b8);
+  letter-spacing: 0.5px;
+}
+
+.admin-section {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, rgba(30, 41, 59, 0.7));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.1));
+}
+
+.audit-log-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.audit-log-item {
+  padding: 0.85rem;
+  border-radius: 8px;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
