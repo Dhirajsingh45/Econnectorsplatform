@@ -578,7 +578,7 @@ export default function FosterHub() {
       {activeTab === 'resources' && (
         <section className="foster-resources-section">
           <div className="section-intro mb-md">
-            <h2>FaunaNet Foster Academy: Safe Care Foundations</h2>
+            <h2>Ecoconnect Foster Academy: Safe Care Foundations</h2>
             <p className="text-muted text-xs">Educational protocols synthesized from recognized animal welfare standards.</p>
           </div>
 
@@ -772,7 +772,7 @@ export default function FosterHub() {
                         checked={applicationForm.regularCheckinsCommitment} 
                         onChange={(e) => setApplicationForm({...applicationForm, regularCheckinsCommitment: e.target.checked})} 
                       />
-                      <span>I agree to log routine health observations in FaunaNet and alert staff to medical issues.</span>
+                      <span>I agree to log routine health observations in Ecoconnect and alert staff to medical issues.</span>
                     </label>
                     <label className="checkbox-agreement">
                       <input 

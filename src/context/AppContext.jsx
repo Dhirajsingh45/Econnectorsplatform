@@ -13,7 +13,7 @@ export const REPUTATION_LEVELS = [
     level: 1,
     title: 'Citizen',
     icon: '🌿',
-    description: 'Welcome to FaunaNet. Every voice matters.',
+    description: 'Welcome to Ecoconnect. Every voice matters.',
     abilities: ['Report animals in need', 'Browse the rescue map', 'Join the community'],
     nextTitle: 'Helper',
     requirement: '5 verified reports or 2 completed tasks',
@@ -95,15 +95,15 @@ export const AppProvider = ({ children }) => {
   const { i18n } = useTranslation();
 
   const [currentUser, setCurrentUser] = useState(() => {
-    const saved = localStorage.getItem('faunanet_user');
+    const saved = localStorage.getItem('Ecoconnect_user');
     return saved ? JSON.parse(saved).user : null;
   });
 
   const [theme, setTheme] = useState(
-    localStorage.getItem('faunanet_theme') || 'nature'
+    localStorage.getItem('Ecoconnect_theme') || 'nature'
   );
   const [language, setLanguageState] = useState(
-    localStorage.getItem('faunanet_lang') || 'en'
+    localStorage.getItem('Ecoconnect_lang') || 'en'
   );
 
   const [tasks, setTasks] = useState([]);
@@ -125,12 +125,12 @@ export const AppProvider = ({ children }) => {
   const setLanguage = (code) => {
     i18n.changeLanguage(code);
     setLanguageState(code);
-    localStorage.setItem('faunanet_lang', code);
+    localStorage.setItem('Ecoconnect_lang', code);
   };
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('faunanet_theme', theme);
+    localStorage.setItem('Ecoconnect_theme', theme);
   }, [theme]);
 
   useEffect(() => {
@@ -275,7 +275,7 @@ export const AppProvider = ({ children }) => {
     setError(null);
     try {
       const data = await authService.login(email, password);
-      localStorage.setItem('faunanet_user', JSON.stringify(data));
+      localStorage.setItem('Ecoconnect_user', JSON.stringify(data));
       setCurrentUser(data.user);
     } catch (err) {
       const msg = err.message || 'Login failed.';
@@ -291,7 +291,7 @@ export const AppProvider = ({ children }) => {
     setError(null);
     try {
       const data = await authService.register(userData);
-      localStorage.setItem('faunanet_user', JSON.stringify(data));
+      localStorage.setItem('Ecoconnect_user', JSON.stringify(data));
       setCurrentUser(data.user);
     } catch (err) {
       const msg = err.message || 'Registration failed.';
@@ -303,7 +303,7 @@ export const AppProvider = ({ children }) => {
   };
 
   const logout = () => {
-    localStorage.removeItem('faunanet_user');
+    localStorage.removeItem('Ecoconnect_user');
     setCurrentUser(null);
   };
 
@@ -312,10 +312,10 @@ export const AppProvider = ({ children }) => {
     setCurrentUser((prev) => {
       if (!prev) return prev;
       const updated = { ...prev, ...updates };
-      const saved = localStorage.getItem('faunanet_user');
+      const saved = localStorage.getItem('Ecoconnect_user');
       if (saved) {
         const parsed = JSON.parse(saved);
-        localStorage.setItem('faunanet_user', JSON.stringify({ ...parsed, user: updated }));
+        localStorage.setItem('Ecoconnect_user', JSON.stringify({ ...parsed, user: updated }));
       }
       return updated;
     });

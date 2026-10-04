@@ -128,11 +128,11 @@ app.get('/health', (req, res) => {
 
 // Root endpoint
 app.get('/', (req, res) => {
-  res.send('FaunaNet Production API is operational.');
+  res.send('Ecoconnect Production API is operational.');
 });
 
 // 404 Handler for undefined API routes
-app.use('/api/*', (req, res) => {
+app.use('/api/*splat', (req, res) => {
   res.status(404).json({ success: false, message: 'API endpoint not found.' });
 });
 
@@ -158,7 +158,7 @@ const PORT = process.env.PORT || 5000;
 
 const connectDB = async () => {
   const primaryUri = process.env.MONGODB_URI;
-  const fallbackUri = 'mongodb://127.0.0.1:27017/faunanet';
+  const fallbackUri = 'mongodb://127.0.0.1:27017/Ecoconnect';
 
   const options = {
     serverSelectionTimeoutMS: 5000,
@@ -174,7 +174,7 @@ const connectDB = async () => {
       console.log('🍃 Primary MongoDB Connected Successfully');
       return true;
     } catch (err) {
-      console.warn('⚠️ Primary MongoDB Connection Failed:', err.message);
+      console.error(' Primary MongoDB Connection Failed:', err.message);
     }
   }
 
@@ -201,7 +201,7 @@ if (require.main === module) {
     }
 
     server.listen(PORT, () => {
-      console.log(`🚀 FaunaNet Persistent Server running on port ${PORT}`);
+      console.log(`🚀 Ecoconnect Persistent Server running on port ${PORT}`);
     });
 
     // Background SLA expiration timer

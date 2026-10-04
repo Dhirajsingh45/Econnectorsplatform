@@ -46,7 +46,7 @@ export default function Auth() {
           <div className="auth-logo mx-auto mb-md">
             <PawPrint size={32} />
           </div>
-          <h1>FaunaNet</h1>
+          <h1>Ecoconnect</h1>
           <p className="text-muted text-sm mt-xs">
             {mode === 'login' ? t('auth.login') : t('auth.signup')}
           </p>

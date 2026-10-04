@@ -104,7 +104,7 @@ export default function ProfilePage() {
 
           <div className="profile-hero-info">
             <div className="profile-name-row">
-              <h2>{currentUser?.name || 'FaunaNet Responder'}</h2>
+              <h2>{currentUser?.name || 'Ecoconnect Responder'}</h2>
               <span className={`role-badge role-${currentUser?.role || 'citizen'}`}>
                 {currentUser?.role || 'citizen'}
               </span>

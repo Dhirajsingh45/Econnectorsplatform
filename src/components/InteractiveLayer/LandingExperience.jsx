@@ -226,7 +226,7 @@ export default function LandingExperience() {
       <header className="public-nav">
         <div className="public-nav-brand" onClick={() => navigate('/')}>
           <Shield size={24} className="text-primary" />
-          <span className="public-brand-text">FaunaNet</span>
+          <span className="public-brand-text">Ecoconnect</span>
         </div>
         <div className="public-nav-links">
           <button className="pnav-link" onClick={() => navigate(currentUser ? '/app/tasks' : '/auth')}>Emergency Report</button>
@@ -352,7 +352,7 @@ export default function LandingExperience() {
         <section className="scene hero">
           <div className="content-overlay-container">
             <div className="side-card glass-panel" style={{ opacity: Math.max(0, 1 - scrollY / 500) }}>
-              <h1 className="brand-title">FAUNANET</h1>
+              <h1 className="brand-title">Ecoconnect</h1>
               <p className="brand-subtitle">Where real-world action meets the digital frontier.</p>
               <p className="interaction-hint">✦ Click a constellation to explore its story</p>
               <div className="hero-actions mt-lg">
@@ -430,7 +430,7 @@ export default function LandingExperience() {
           <div className="landing-section-inner">
             <div className="landing-section-header text-center">
               <span className="section-pill">OPERATIONAL PIPELINE</span>
-              <h2>How FaunaNet Operates in Real Time</h2>
+              <h2>How Ecoconnect Operates in Real Time</h2>
               <p>From initial citizen alert to long-term digital passport verification, every step is coordinated with surgical precision.</p>
             </div>
             <div className="workflow-grid">
@@ -480,7 +480,7 @@ export default function LandingExperience() {
             <div className="footer-brand">
               <div className="brand-header">
                 <Shield size={20} className="text-primary" />
-                <span className="footer-brand-name">FaunaNet</span>
+                <span className="footer-brand-name">Ecoconnect</span>
               </div>
               <p>Hyperlocal Animal Welfare, Rescue Logistics &amp; Coexistence Platform.</p>
             </div>
@@ -500,7 +500,7 @@ export default function LandingExperience() {
             </div>
           </div>
           <div className="footer-bottom">
-            <span>© {new Date().getFullYear()} FaunaNet. Open-source wildlife &amp; stray welfare infrastructure.</span>
+            <span>© {new Date().getFullYear()} Ecoconnect. Open-source wildlife &amp; stray welfare infrastructure.</span>
           </div>
         </footer>
       </div>

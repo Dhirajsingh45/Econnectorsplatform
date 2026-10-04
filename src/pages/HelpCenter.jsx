@@ -10,17 +10,17 @@ const FAQS = [
   {
     category: 'emergency',
     title: 'What should I do if I find a critically injured stray animal?',
-    content: 'Ensure your personal safety first. Open FaunaNet and submit an Emergency Report with exact GPS location and clear photos. If the animal is on a busy road, place safe barricades or caution cones without cornering the animal. Our automated triage will route the case to the nearest available emergency responder within minutes.'
+    content: 'Ensure your personal safety first. Open Ecoconnect and submit an Emergency Report with exact GPS location and clear photos. If the animal is on a busy road, place safe barricades or caution cones without cornering the animal. Our automated triage will route the case to the nearest available emergency responder within minutes.'
   },
   {
     category: 'emergency',
     title: 'How does the automated AI triage categorize urgency?',
-    content: 'FaunaNet evaluates keywords and description metrics in real-time. Severe physical trauma, active hemorrhage, vehicle collision, and unconsciousness trigger P1 Critical with 15-minute dispatch SLAs. High-risk fractures or deep lacerations trigger P2 High. Mild lameness or skin infections trigger P3 Normal.'
+    content: 'Ecoconnect evaluates keywords and description metrics in real-time. Severe physical trauma, active hemorrhage, vehicle collision, and unconsciousness trigger P1 Critical with 15-minute dispatch SLAs. High-risk fractures or deep lacerations trigger P2 High. Mild lameness or skin infections trigger P3 Normal.'
   },
   {
     category: 'lost_found',
     title: 'How does the Lost & Found image matching work?',
-    content: 'When you upload a photo of a lost or found animal, FaunaNet compares facial features, coat patterns, ear notches, and species markings against existing community records and active reports to detect potential matches.'
+    content: 'When you upload a photo of a lost or found animal, Ecoconnect compares facial features, coat patterns, ear notches, and species markings against existing community records and active reports to detect potential matches.'
   },
   {
     category: 'volunteer',
@@ -29,12 +29,12 @@ const FAQS = [
   },
   {
     category: 'foster',
-    title: 'What support does FaunaNet provide to foster homes?',
+    title: 'What support does Ecoconnect provide to foster homes?',
     content: 'Through our Foster Hub and Shelter Asset Inventory, partner NGOs and shelters provide medical supplies, food rations, and veterinary checkup access for animals in temporary foster care until permanent adoption.'
   },
   {
     category: 'adoption',
-    title: 'What is the FaunaNet Digital Passport?',
+    title: 'What is the Ecoconnect Digital Passport?',
     content: 'Every rescued animal receives an immutable Digital Passport containing medical records, rabies vaccinations, sterilization status, and rescue history. Public-safe versions (free of sensitive rescuer PII) are shareable for adoption and municipal verification.'
   },
 ];

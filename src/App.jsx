@@ -44,7 +44,7 @@ class ErrorBoundary extends React.Component {
       return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: '#321325', color: '#fff8df', gap: '1rem', padding: '2rem', textAlign: 'center' }}>
           <div style={{ display: 'grid', placeItems: 'center', width: '3.5rem', height: '3.5rem', background: '#FCDC4D', color: '#321325', borderRadius: '8px', fontWeight: 900 }}>FN</div>
-          <h1>FaunaNet</h1>
+          <h1>Ecoconnect</h1>
           <p style={{ color: '#f5cf88', fontSize: '0.95rem' }}>Something went wrong. Please reload.</p>
           <button onClick={() => window.location.reload()} style={{ marginTop: '1rem', padding: '0.75rem 2rem', background: '#FCDC4D', color: '#321325', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold' }}>
             Reload

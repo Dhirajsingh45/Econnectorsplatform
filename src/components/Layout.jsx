@@ -52,11 +52,11 @@ export default function Layout() {
 
   const navContent = (
     <>
-      <div className="brand" aria-label="FaunaNet home">
+      <div className="brand" aria-label="Ecoconnect home">
         <div className="brand-logo">
           <Shield size={24} fill="var(--primary)" stroke="var(--primary)" />
         </div>
-        <span className="brand-text">FaunaNet</span>
+        <span className="brand-text">Ecoconnect</span>
       </div>
 
       <nav className="nav-links" aria-label="Main navigation">
@@ -187,11 +187,11 @@ export default function Layout() {
     <div className={`layout ${emergencyMode ? 'emergency-active' : ''}`}>
       {/* Mobile Header Bar */}
       <header className="mobile-header" role="banner">
-        <div className="brand" aria-label="FaunaNet">
+        <div className="brand" aria-label="Ecoconnect">
           <div className="brand-logo">
             <Shield size={20} fill="var(--primary)" stroke="var(--primary)" aria-hidden="true" />
           </div>
-          <span className="brand-text">FaunaNet</span>
+          <span className="brand-text">Ecoconnect</span>
         </div>
         <button
           className="hamburger-btn"
@@ -222,7 +222,7 @@ export default function Layout() {
         role="dialog"
       >
         <div className="mobile-nav-drawer-header">
-          <span className="brand-text">FaunaNet</span>
+          <span className="brand-text">Ecoconnect</span>
           <button
             className="hamburger-btn"
             onClick={() => setMobileNavOpen(false)}
