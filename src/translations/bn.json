@@ -1,0 +1,51 @@
+{
+  "auth": {
+    "login": "লগইন",
+    "signup": "সাইন আপ",
+    "email": "ইমেল",
+    "password": "পাসওয়ার্ড",
+    "loading": "লোড হচ্ছে...",
+    "error_invalid": "ইমেল বা পাসওয়ার্ড ভুল।"
+  },
+  "nav": {
+    "dashboard": "ড্যাশবোর্ড",
+    "map": "মানচিত্র",
+    "tasks": "কাজ",
+    "health": "স্বাস্থ্য",
+    "training": "প্রশিক্ষণ",
+    "assets": "সম্পদ",
+    "logout": "লগআউট"
+  },
+  "dashboard": {
+    "title": "ড্যাশবোর্ড",
+    "subtitle": "উদ্ধার কাজ, রিপোর্ট এবং উপলব্ধ সাহায্য দেখুন।",
+    "stats": {
+      "pending": "অপেক্ষমান রিপোর্ট",
+      "active": "সক্রিয় কাজ",
+      "verified": "যাচাইকৃত উদ্ধার",
+      "rank": "স্তর"
+    },
+    "quick_deploy": "দ্রুত কাজ",
+    "report": "জরুরি রিপোর্ট করুন",
+    "locate": "মানচিত্র খুলুন",
+    "latest_intel": "নতুন রিপোর্ট"
+  },
+  "common": {
+    "loading": "লোড হচ্ছে...",
+    "save_success": "কাজটি সফলভাবে সংরক্ষিত হয়েছে।",
+    "impact_message": "আপনার সাহায্যে এই প্রাণীটি এখন আরও নিরাপদ।",
+    "view_all": "সব দেখুন",
+    "community": "কমিউনিটি",
+    "daily_tasks": "দৈনিক কাজ"
+  },
+  "settings": {
+    "theme": "থিম",
+    "language": "ভাষা",
+    "themes": {
+      "light": "লাইট",
+      "dark": "ডার্ক",
+      "highContrast": "হাই কনট্রাস্ট",
+      "cyberpunk": "নিয়ন"
+    }
+  }
+}

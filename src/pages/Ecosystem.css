@@ -1,0 +1,238 @@
+.ecosystem-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ecosystem-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.ecosystem-header h1 {
+  font-size: 2.2rem;
+  color: var(--text-primary);
+}
+
+.ecosystem-header p,
+.ecosystem-note {
+  color: var(--text-secondary);
+}
+
+.ecosystem-tabs {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding-bottom: 0.35rem;
+}
+
+.ecosystem-tabs button {
+  min-height: 42px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: var(--card-bg);
+  color: var(--text-secondary);
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 800;
+}
+
+.ecosystem-tabs button.active {
+  background: var(--accent-soft);
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.ecosystem-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 1.25rem;
+}
+
+.ecosystem-section {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.ecosystem-section h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.node-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.node-card,
+.log-card,
+.leader-row,
+.messenger-row {
+  background: var(--bg-color);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+}
+
+.node-card h3,
+.log-card h3 {
+  color: var(--text-primary);
+  margin: 0.35rem 0;
+}
+
+.node-card p,
+.log-card p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.node-status {
+  display: inline-flex;
+  padding: 0.25rem 0.55rem;
+  border-radius: var(--radius-full);
+  background: rgba(46, 204, 113, 0.12);
+  color: var(--success);
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.node-status.busy { background: rgba(241, 196, 15, 0.12); color: #d4ac0d; }
+.node-status.emergency-only { background: rgba(231, 76, 60, 0.12); color: var(--danger); }
+.node-status.offline { background: rgba(127, 140, 141, 0.16); color: var(--text-secondary); }
+
+.node-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem;
+  margin-top: 0.9rem;
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+}
+
+.node-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.node-form input,
+.node-form select,
+.search-row input {
+  width: 100%;
+  min-height: 42px;
+  padding: 0.7rem 0.85rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg-color);
+  color: var(--text-primary);
+  font: inherit;
+}
+
+.credit-band {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.credit-band div {
+  background: linear-gradient(145deg, var(--bg-color), var(--accent-soft));
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+}
+
+.credit-band strong {
+  display: block;
+  color: var(--primary);
+  font-size: 2rem;
+}
+
+.credit-band span {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.leaderboard-list,
+.log-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.leader-row,
+.messenger-row,
+.log-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.leader-row span,
+.messenger-row span {
+  color: var(--text-primary);
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.leader-row small,
+.log-card strong {
+  color: var(--text-secondary);
+}
+
+.search-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.search-row label {
+  max-width: 360px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+}
+
+.messenger-row div {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.empty-ecosystem {
+  padding: 2rem;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .ecosystem-grid,
+  .credit-band {
+    grid-template-columns: 1fr;
+  }
+
+  .search-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

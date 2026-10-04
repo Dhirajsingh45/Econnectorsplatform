@@ -1,0 +1,51 @@
+{
+  "auth": {
+    "login": "લૉગિન",
+    "signup": "સાઇન અપ",
+    "email": "ઇમેલ",
+    "password": "પાસવર્ડ",
+    "loading": "લોડ થઈ રહ્યું છે...",
+    "error_invalid": "ઇમેલ અથવા પાસવર્ડ ખોટો છે."
+  },
+  "nav": {
+    "dashboard": "ડેશબોર્ડ",
+    "map": "નકશો",
+    "tasks": "કાર્યો",
+    "health": "આરોગ્ય",
+    "training": "પ્રશિક્ષણ",
+    "assets": "સંસાધનો",
+    "logout": "લૉગઆઉટ"
+  },
+  "dashboard": {
+    "title": "ડેશબોર્ડ",
+    "subtitle": "રેસ્ક્યુ કામ, રિપોર્ટ અને ઉપલબ્ધ મદદ જુઓ.",
+    "stats": {
+      "pending": "બાકી રિપોર્ટ",
+      "active": "સક્રિય કાર્યો",
+      "verified": "ચકાસેલા રેસ્ક્યુ",
+      "rank": "સ્તર"
+    },
+    "quick_deploy": "ઝડપી ક્રિયાઓ",
+    "report": "તાત્કાલિક રિપોર્ટ કરો",
+    "locate": "નકશો ખોલો",
+    "latest_intel": "નવા રિપોર્ટ"
+  },
+  "common": {
+    "loading": "લોડ થઈ રહ્યું છે...",
+    "save_success": "ક્રિયા સફળતાપૂર્વક સાચવાઈ.",
+    "impact_message": "તમારી મદદથી આ પ્રાણી હવે વધુ સુરક્ષિત છે.",
+    "view_all": "બધું જુઓ",
+    "community": "સમુદાય",
+    "daily_tasks": "દૈનિક કાર્યો"
+  },
+  "settings": {
+    "theme": "થીમ",
+    "language": "ભાષા",
+    "themes": {
+      "light": "લાઇટ",
+      "dark": "ડાર્ક",
+      "highContrast": "હાઇ કોન્ટ્રાસ્ટ",
+      "cyberpunk": "નિઓન"
+    }
+  }
+}

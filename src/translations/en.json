@@ -1,0 +1,144 @@
+{
+  "landing": {
+    "title": "FAUNANET",
+    "subtitle": "Where the heartbeat of the city includes every life.",
+    "tagline": "Building a kinder, more connected urban ecosystem.",
+    "cta": "Join the Ecosystem",
+    "stats": {
+      "active": "Active Reports",
+      "resolved": "Animals Helped",
+      "users": "Kind Hearts Online"
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign up",
+    "email": "Email",
+    "password": "Password",
+    "loading": "Loading...",
+    "error_invalid": "Invalid email or password.",
+    "onboarding": {
+      "language": "Select Language",
+      "role": "Choose Account Type",
+      "mission": "Accept Your Mission"
+    },
+    "name": "Name",
+    "account_type": "Account Type",
+    "roles": {
+      "citizen": "Citizen",
+      "volunteer": "Volunteer",
+      "ngo": "NGO"
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "map": "Map",
+    "tasks": "Tasks",
+    "health": "Health",
+    "training": "Training",
+    "assets": "Assets",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Track rescue work, reports, and available help.",
+    "stats": {
+      "pending": "Pending reports",
+      "active": "Active tasks",
+      "verified": "Verified rescues",
+      "rank": "Level"
+    },
+    "quick_deploy": "Quick actions",
+    "report": "Report emergency",
+    "locate": "Open map",
+    "latest_intel": "Latest reports",
+    "hub": {
+      "title": "Coexistence Hub",
+      "locate": "Locate",
+      "locate_desc": "Find animals in need",
+      "community": "Community",
+      "community_desc": "Coordinate with others",
+      "training": "Training",
+      "training_desc": "Level up your skills",
+      "health": "Health",
+      "health_desc": "Population monitoring"
+    }
+  },
+  "map": {
+    "subtitle": "Real-time coexistence tracker",
+    "stats": {
+      "active": "Active Reports",
+      "rescue": "In Rescue"
+    },
+    "sync": "Sync My Location",
+    "recent": "Recent activity",
+    "empty": "No reports in this sector.",
+    "user_title": "You are here",
+    "user_subtitle": "Sector Guardian",
+    "animal_in_need": "ANIMAL IN NEED",
+    "help_now": "Help Now"
+  },
+  "tasks": {
+    "title": "Rescue Board",
+    "subtitle": "Coordinate urban wildlife & stray interventions.",
+    "new_report": "New Report",
+    "form": {
+      "title": "Submit Intervention",
+      "animal_type": "Animal Species",
+      "urgency": "Urgency Level",
+      "details": "Situation Details",
+      "placeholder": "e.g. Injured dog near Sector 5 market...",
+      "submit": "Submit to Network",
+      "processing": "Processing..."
+    },
+    "empty": {
+      "title": "No Active Missions",
+      "desc": "Reports in this sector are currently clear."
+    },
+    "actions": {
+      "accept": "Accept Mission",
+      "complete": "Complete Task",
+      "verify": "Verify Resolution"
+    },
+    "status": {
+      "awaiting": "Awaiting NGO Audit",
+      "verified": "Resolution Verified"
+    }
+  },
+  "training": {
+    "title": "Training Academy",
+    "progress": "Skill progress: {{percent}}% complete",
+    "level_label": "Training level",
+    "badges": "Badges earned",
+    "modules": {
+      "m1": { "title": "Emergency First Response", "desc": "Immediate care for injured animals." },
+      "m2": { "title": "Urban Wildlife Awareness", "desc": "Identifying local species." },
+      "m3": { "title": "Humane Handling & Care", "desc": "Safe interaction techniques." },
+      "m4": { "title": "Network Coordination", "desc": "Optimizing rescue efforts." }
+    },
+    "actions": {
+      "start": "Start",
+      "review": "Review",
+      "locked": "Locked"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "save_success": "Action successfully verified.",
+    "impact_message": "This animal is now safer because of your help.",
+    "no_reports": "No reports yet.",
+    "view_all": "View all",
+    "community": "Community",
+    "daily_tasks": "Daily tasks"
+  },
+  "settings": {
+    "theme": "Theme",
+    "language": "Language",
+    "themes": {
+      "light": "Light",
+      "dark": "Dark",
+      "highContrast": "High contrast",
+      "cyberpunk": "Neon"
+    }
+  }
+}

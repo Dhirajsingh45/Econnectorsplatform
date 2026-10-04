@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+server/node_modules/
+jspm_packages/
+web_modules/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+server/.env
+
+# Build Output
+dist/
+dist-ssr/
+build/
+.next/
+out/
+.nuxt/
+.output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Deployment
+.vercel/
+
+# Temporary Files
+scratch/
+*.tmp
+*.temp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/

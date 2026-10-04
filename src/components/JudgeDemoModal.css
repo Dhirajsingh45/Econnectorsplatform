@@ -1,0 +1,291 @@
+.demo-trigger-banner {
+  background: linear-gradient(135deg, rgba(255, 140, 66, 0.15), rgba(241, 196, 15, 0.1), rgba(18, 22, 34, 0.9));
+  border: 1px solid rgba(255, 140, 66, 0.4);
+  border-radius: 16px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(255, 140, 66, 0.12);
+  transition: all 0.3s ease;
+}
+
+.demo-trigger-banner:hover {
+  border-color: #FF8C42;
+  box-shadow: 0 10px 35px rgba(255, 140, 66, 0.2);
+}
+
+.demo-banner-content {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.demo-icon-badge {
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #FF8C42, #FFD166);
+  display: grid;
+  place-items: center;
+  color: #111;
+  box-shadow: 0 0 20px rgba(255, 140, 66, 0.5);
+  flex-shrink: 0;
+}
+
+.demo-banner-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0 0 0.25rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.demo-badge-pill {
+  font-size: 0.7rem;
+  font-weight: 800;
+  background: rgba(255, 140, 66, 0.25);
+  color: #FF8C42;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 140, 66, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.demo-banner-desc {
+  font-size: 0.85rem;
+  color: #A0AEC0;
+  margin: 0;
+}
+
+.btn-launch-demo {
+  background: linear-gradient(135deg, #FF8C42, #FF5E36);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 12px;
+  padding: 0.75rem 1.4rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 4px 18px rgba(255, 94, 54, 0.4);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-launch-demo:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(255, 94, 54, 0.6);
+}
+
+/* Modal */
+.demo-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(4, 6, 12, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: grid;
+  place-items: center;
+  z-index: 1000;
+  padding: 1.5rem;
+}
+
+.demo-modal {
+  background: linear-gradient(175deg, rgba(24, 30, 48, 0.95), rgba(14, 18, 30, 0.98));
+  border: 1px solid rgba(255, 140, 66, 0.35);
+  border-radius: 24px;
+  width: 100%;
+  max-width: 720px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6), 0 0 40px rgba(255, 140, 66, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.demo-modal-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.demo-header-info h2 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+}
+
+.demo-header-info p {
+  color: #A0AEC0;
+  font-size: 0.82rem;
+  margin: 0.25rem 0 0 0;
+}
+
+.demo-close-btn {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #A0AEC0;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.demo-close-btn:hover {
+  background: rgba(231, 76, 60, 0.2);
+  color: #E74C3C;
+  border-color: #E74C3C;
+}
+
+.demo-modal-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Stepper Cards */
+.demo-step-card {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 1.15rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+
+.demo-step-card.active {
+  border-color: #FF8C42;
+  background: rgba(255, 140, 66, 0.08);
+  box-shadow: 0 0 20px rgba(255, 140, 66, 0.15);
+}
+
+.demo-step-card.completed {
+  border-color: rgba(46, 204, 113, 0.4);
+  background: rgba(46, 204, 113, 0.05);
+}
+
+.step-indicator {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.1);
+  color: #CBD5E0;
+}
+
+.demo-step-card.active .step-indicator {
+  background: #FF8C42;
+  color: #111;
+  box-shadow: 0 0 12px #FF8C42;
+}
+
+.demo-step-card.completed .step-indicator {
+  background: #2ECC71;
+  color: #111;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.step-title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #FFFFFF;
+}
+
+.step-status-tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+
+.step-pending { background: rgba(255, 255, 255, 0.08); color: #A0AEC0; }
+.step-running { background: rgba(255, 140, 66, 0.2); color: #FF8C42; }
+.step-done { background: rgba(46, 204, 113, 0.2); color: #2ECC71; }
+
+.step-description {
+  font-size: 0.82rem;
+  color: #A0AEC0;
+  margin: 0;
+}
+
+.step-payload-data {
+  margin-top: 0.6rem;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.75rem;
+  color: #68D391;
+  overflow-x: auto;
+}
+
+/* Success Result View */
+.demo-success-box {
+  background: linear-gradient(135deg, rgba(46, 204, 113, 0.12), rgba(26, 32, 50, 0.8));
+  border: 1px solid #2ECC71;
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.passport-preview-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 140, 66, 0.4);
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  color: #FF8C42;
+  font-family: 'Courier New', monospace;
+  font-weight: 700;
+}
+
+.demo-modal-footer {
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

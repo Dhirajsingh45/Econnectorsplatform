@@ -1,0 +1,51 @@
+{
+  "auth": {
+    "login": "ਲਾਗਇਨ",
+    "signup": "ਸਾਈਨ ਅੱਪ",
+    "email": "ਈਮੇਲ",
+    "password": "ਪਾਸਵਰਡ",
+    "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    "error_invalid": "ਈਮੇਲ ਜਾਂ ਪਾਸਵਰਡ ਗਲਤ ਹੈ।"
+  },
+  "nav": {
+    "dashboard": "ਡੈਸ਼ਬੋਰਡ",
+    "map": "ਨਕਸ਼ਾ",
+    "tasks": "ਕੰਮ",
+    "health": "ਸਿਹਤ",
+    "training": "ਟ੍ਰੇਨਿੰਗ",
+    "assets": "ਸਰੋਤ",
+    "logout": "ਲਾਗਆਉਟ"
+  },
+  "dashboard": {
+    "title": "ਡੈਸ਼ਬੋਰਡ",
+    "subtitle": "ਬਚਾਵ ਕੰਮ, ਰਿਪੋਰਟਾਂ ਅਤੇ ਉਪਲਬਧ ਮਦਦ ਵੇਖੋ।",
+    "stats": {
+      "pending": "ਲੰਬਿਤ ਰਿਪੋਰਟਾਂ",
+      "active": "ਸਰਗਰਮ ਕੰਮ",
+      "verified": "ਪੁਸ਼ਟੀਸ਼ੁਦਾ ਬਚਾਵ",
+      "rank": "ਪੱਧਰ"
+    },
+    "quick_deploy": "ਤੁਰੰਤ ਕਾਰਵਾਈ",
+    "report": "ਐਮਰਜੈਂਸੀ ਰਿਪੋਰਟ ਕਰੋ",
+    "locate": "ਨਕਸ਼ਾ ਖੋਲ੍ਹੋ",
+    "latest_intel": "ਨਵੀਆਂ ਰਿਪੋਰਟਾਂ"
+  },
+  "common": {
+    "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    "save_success": "ਕਾਰਵਾਈ ਸਫਲਤਾਪੂਰਵਕ ਸੇਵ ਹੋ ਗਈ।",
+    "impact_message": "ਤੁਹਾਡੀ ਮਦਦ ਨਾਲ ਇਹ ਜਾਨਵਰ ਹੁਣ ਹੋਰ ਸੁਰੱਖਿਅਤ ਹੈ।",
+    "view_all": "ਸਭ ਵੇਖੋ",
+    "community": "ਕਮਿਊਨਿਟੀ",
+    "daily_tasks": "ਰੋਜ਼ਾਨਾ ਕੰਮ"
+  },
+  "settings": {
+    "theme": "ਥੀਮ",
+    "language": "ਭਾਸ਼ਾ",
+    "themes": {
+      "light": "ਲਾਈਟ",
+      "dark": "ਡਾਰਕ",
+      "highContrast": "ਹਾਈ ਕਾਂਟ੍ਰਾਸਟ",
+      "cyberpunk": "ਨੀਓਨ"
+    }
+  }
+}
